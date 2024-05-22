@@ -1,0 +1,8 @@
+name: MyWorkFlow
+on: push
+jobs:
+    first-job:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Welcome Message
+          run: echo 'Welcome Message'
