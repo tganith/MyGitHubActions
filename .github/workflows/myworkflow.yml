@@ -8,3 +8,5 @@ jobs:
           run: echo 'Welcome Message'
         - name: list of files
           run: ls  
+        - name: dispaly file
+          run: cat README.md
