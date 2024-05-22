@@ -7,8 +7,7 @@ jobs:
         - name: Checkout Repo
           uses: actions/checkout@v4
         - name: Welcome Message
-          run: echo 'Welcome Message'
-        - name: list of files
-          run: ls  
-        - name: dispaly file
-          run: cat README.md
+          run: | 
+                echo 'Welcome Message'
+                ls 
+                cat README.md
